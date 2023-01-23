@@ -2,6 +2,6 @@ npm init
 npm install express
 npx express-generator --view=hbs
 npm i nodemon (para que se actualice la pagina)
-npm i
+npm install bootstrap@5.2.3
 
 En package.json modificamos node por nodemon
