@@ -8,6 +8,7 @@ body {
 
 h1 {
   color: beige;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,6 +17,7 @@ h1 {
 
 nav {
   text-align: end;
+  width: 100%;
 }
 
 ul.nav-menu {
@@ -39,12 +41,83 @@ a.nav-enlace {
 }
 
 /*BOX-SERVICES*/
+
+h4{
+  color: beige;
+  margin-top: 2%;
+  text-align: center;
+}
+
 div.box-services {
-  height: 800px;
+  height: 400px;
   background-color: rgba(112, 128, 144, 0.486);
   margin: 20px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+}
+div.valores{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  align-items: center;
+}
+
+div.valores1{
+  height: 180px;
+  width: 355px;
+  background-color: darkslategray;
+  margin: 3px;
+  border-radius: 5px;
+}
+div.valores1-h4{
+  color: beige;
+}
+
+div.valores2{
+  height: 180px;
+  width: 355px;
+  background-color: darkslategray;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+div.valores3{
+  height: 180px;
+  width: 355px;
+  background-color: darkslategray;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+div.valores4{
+  height: 180px;
+  width: 355px;
+  background-color: darkslategray;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+div.valores5{
+  height: 180px;
+  width: 355px;
+  background-color: darkslategray;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+div.valores6{
+  height: 180px;
+  width: 355px;
+  background-color: darkslategray;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+p{
+  color: beige;
+  margin: 5%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
