@@ -43,24 +43,29 @@ a.nav-enlace {
 /*BOX-SERVICES*/
 
 h4{
-  color: beige;
+  color: white;
+  font-weight: bold;
   margin-top: 2%;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  
+  
 }
 
 div.box-services {
   height: 400px;
-  background-color: rgba(112, 128, 144, 0.486);
+  /*background-color: rgba(112, 128, 144, 0.486);*/
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  position: relative;
 }
 div.valores{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 5%;
   align-items: center;
+  justify-content: space-evenly; /*con esto hago que se centren los div dentro del div padre*/
 }
 
 div.valores1{
@@ -69,9 +74,16 @@ div.valores1{
   background-color: darkslategray;
   margin: 3px;
   border-radius: 5px;
+  /*background-image: url("../images/trayectoria.jpg");*/
+  background-size: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40); 
 }
-div.valores1-h4{
-  color: beige;
+
+div.valores1:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+
 }
 
 div.valores2{
@@ -80,6 +92,15 @@ div.valores2{
   background-color: darkslategray;
   margin: 3px;
   border-radius: 5px;
+  /*background-image: url("../images/transparencia.jpg");*/
+  background-size:cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40); 
+}
+
+div.valores2:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
 }
 
 div.valores3{
@@ -88,6 +109,15 @@ div.valores3{
   background-color: darkslategray;
   margin: 3px;
   border-radius: 5px;
+  /*background-image: url("../images/eficacia.jpg");*/
+  background-size: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40); 
+}
+
+div.valores3:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
 }
 
 div.valores4{
@@ -96,7 +126,17 @@ div.valores4{
   background-color: darkslategray;
   margin: 3px;
   border-radius: 5px;
+  /*background-image: url("../images/confianza.jpg");*/
+  background-size: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40); 
 }
+
+div.valores4:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}
+
 
 div.valores5{
   height: 180px;
@@ -104,7 +144,17 @@ div.valores5{
   background-color: darkslategray;
   margin: 3px;
   border-radius: 5px;
+  /*background-image: url("../images/experiencia.png");*/
+  background-size: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40); 
 }
+
+div.valores5:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}
+
 
 div.valores6{
   height: 180px;
@@ -112,14 +162,31 @@ div.valores6{
   background-color: darkslategray;
   margin: 3px;
   border-radius: 5px;
+  /*background-image: url("../images/excelencia.jpg");*/
+  background-size: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=40); 
 }
+
+div.valores6:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}
+
 
 p{
-  color: beige;
+  color:white;
   margin: 5%;
   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
 }
 
+
+
+/*i.fa-regular.fa-handshake::before{
+  color: beige;
+}*/
 
 
 /*PIE DE PAGINA*/
@@ -144,8 +211,10 @@ footer .principal {
   font-size: 18px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 
 }
+
 
 footer .text {
   display: flex;
