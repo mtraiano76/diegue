@@ -8,6 +8,8 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url("../images/fondo.jpg");
+  background-repeat: no-repeat; 
+  background-attachment: fixed; /*queda el fondo estatico*/
   background-size: 100%;
 
 }
@@ -27,13 +29,14 @@ h1 {
 nav {
   text-align: end;
   width: 100%;
-  position: fixed; /*hacemos que el footer quede siempre abajo*/
+  position: fixed;
+  /*hacemos que el footer quede siempre abajo*/
   left: 0px;
   width: 100%;
   z-index: 100;
   top: 0;
   height: 80px;
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: black;
 }
 
 ul.nav-menu {
@@ -216,7 +219,8 @@ footer {
   align-items: center;
   padding-bottom: 15px;
   background-color: rgba(0, 0, 0, 0.603);
-  position: fixed; /*hacemos que el footer quede siempre abajo*/
+  position: fixed;
+  /*hacemos que el footer quede siempre abajo*/
   left: 0px;
   bottom: 0px;
   width: 100%;
@@ -379,7 +383,8 @@ form.formulario p {
 
 input {
   width: 100%;
-  background-color: rgb(152, 168, 184);;
+  background-color: rgb(152, 168, 184);
+  ;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
@@ -394,11 +399,11 @@ form.formulario a {
   text-decoration: none;
 }
 
-form.formulario textarea{
+form.formulario textarea {
   width: 100%;
   height: 150px;
 }
 
-#text{
+#text {
   text-align: center;
 }
