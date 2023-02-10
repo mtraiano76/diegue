@@ -40,6 +40,11 @@ nav {
   background-color: black;
 }
 
+.nav-menu li a.active, .nav-menu li a:hover{
+  color: slategrey;
+  transition: .3s;
+}
+
 ul.nav-menu {
   display: inline-flex;
   list-style: none;
@@ -308,31 +313,50 @@ footer ul li a {
   text-decoration: none;
 }
 
+.fa-facebook-f:hover {
+  color: slategray;
+}
+
+.fa-instagram:hover {
+  color: slategray;
+}
+
+.fa-twitter:hover {
+  color: slategray;
+}
+
 .contact {
   position: fixed;
   bottom: 5px;
   right: 5px;
   z-index: 10;
+  display: flex;
 }
 
 .contact .fixed-mail {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
   padding: 15px;
   border-radius: 100%;
   margin: 10px;
 }
 
+.fa-envelope:hover {
+  color: slategrey;
+}
+
 .contact .fixed-wp {
-  background-color: green;
   align-items: center;
   justify-content: center;
   padding: 15px;
   border-radius: 100%;
   margin: 10px;
   text-align: center;
+}
+
+.fa-whatsapp:hover {
+  color: slategrey;
 }
 
 .contact a i {
