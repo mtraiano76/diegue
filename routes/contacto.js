@@ -19,8 +19,9 @@ router.post('/', async function (req, res, next) {
   var tel = req.body.telefono;
   var comentarios = req.body.comentarios;
   //console.log(req.body.email) //solo para comprobar en consola que se esten comunicando la vista y el controlador
+  
   var obj = {
-    to: 'mtraiano76@gmail.com',
+    to: 'configuracion@pretorianos.com.ar', /*aqui va el mail deonde recibira la consulta del formulario de contacto*/
     subject: 'Contacto desde la pagina',
     html: nombre + ' se contacto a traves de la web y quiere saber mas info a este correo: ' + email + '<br> Su tel es: ' + tel + '. Su comentario es: ' + comentarios + '.'
 
@@ -32,7 +33,7 @@ router.post('/', async function (req, res, next) {
     auth: {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASS,
-    }
+    },
   })
 
   var info = await transport.sendMail(obj);
