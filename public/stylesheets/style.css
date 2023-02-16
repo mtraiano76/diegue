@@ -57,7 +57,8 @@ nav {
 ul.nav-menu {
   display: inline-flex;
   list-style: none;
-  margin-top: 15px;
+  margin-top: 2%;
+
 
 }
 
@@ -72,7 +73,7 @@ li {
 a.nav-enlace {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
