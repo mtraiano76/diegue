@@ -26,6 +26,8 @@ body {
   background-color: rgba(112, 128, 144, 0.726);
   color:black;
   border-radius: 5px;
+  height: 200px;
+  width: 200px;
 
 }
 
@@ -38,6 +40,11 @@ h1 {
   top: 10px;
 }
 
+h3 {
+  color: white;
+  margin-top:3%;
+  font-family: 'Montserrat', sans-serif;
+}
 
 /*NAV MENU*/
 
