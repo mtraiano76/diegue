@@ -15,21 +15,14 @@ body {
 
 }
 
-
-.carousel{
-  margin-top:3.5% ;
-  width: 60%;
-  margin-left: 20%;
+img {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
 }
 
-.carousel-caption{
-  background-color: rgba(112, 128, 144, 0.726);
-  color:black;
-  border-radius: 5px;
-  height: 200px;
-  width: 200px;
-
-}
 
 h1 {
   color: white;
