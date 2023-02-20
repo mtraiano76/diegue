@@ -7,11 +7,11 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url("../images/fondo.jpg");
+  background-image: url("../images/global.1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   /*queda el fondo estatico*/
-  background-size: 100%;
+  background-size: cover;
 
 }
 
