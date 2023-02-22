@@ -21,7 +21,7 @@ router.post('/', async function (req, res, next) {
   //console.log(req.body.email) //solo para comprobar en consola que se esten comunicando la vista y el controlador
   
   var obj = {
-    to: 'mtraiano76@gmail.com', /*aqui va el mail deonde recibira la consulta del formulario de contacto*/
+    to: 'configuracion@pretorianos.com.ar', /*aqui va el mail deonde recibira la consulta del formulario de contacto*/
     subject: 'Contacto desde la pagina',
     html: nombre + ' se contacto a traves de la web y quiere saber mas info a este correo: ' + email + '<br> Su tel es: ' + tel + '. Su comentario es: ' + comentarios + '.'
 
